@@ -1,0 +1,39 @@
+$primary: #14b8a6;
+$secondary: #06b6d4;
+$accent: #f59e0b;
+
+// Semantic Colors
+$success: #10b981;
+$warning: #f59e0b;
+$error: #ef4444;
+$info: #14b8a6;
+
+// Theme Colors
+$background: #030712; // Deep dark background
+$background-secondary: #0f1623;
+$text: #ffffff; // Pure white for maximum visibility
+$text-secondary: #94a3b8; // Slate 400 for secondary text
+$border: rgba(255, 255, 255, 0.06);
+// Note: We are moving away from visible borders to shadows, 
+// using $border mainly for subtle dividers where shadow isn't appropriate.
+
+// Glass & Effects
+$glass: rgba(15, 23, 42, 0.7);
+$glass-border: 1px solid rgba(255, 255, 255, 0.1);
+
+$gradient-primary: linear-gradient(135deg, #14b8a6 0%, #06b6d4 100%);
+$gradient-card: linear-gradient(145deg, rgba(20, 30, 45, 0.8) 0%, rgba(10, 18, 30, 0.8) 100%);
+$gradient-glow: radial-gradient(circle at top center, rgba(20, 184, 166, 0.12), transparent 70%);
+
+// Layout & Typography
+$font-main: 'Inter', system-ui, -apple-system, sans-serif;
+$header-height: 70px;
+$container-max-width: 1200px;
+$radius: 16px;
+$radius-sm: 8px;
+$radius-lg: 20px;
+
+// Shadows (Borderless Design)
+$shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+$shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
+$shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.1);
